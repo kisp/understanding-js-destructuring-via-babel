@@ -1,0 +1,26 @@
+{
+  "name": "foo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "eslint-config-wesbos": "^3.2.3"
+  },
+  "eslintConfig": {
+    "extends": ["wesbos"]
+  },
+  "browserslist": ["last 2 Chrome versions", "IE 11"],
+  "babel": {
+    "presets": [["@babel/preset-env"]]
+  }
+}
